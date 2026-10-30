@@ -25,8 +25,8 @@ export default function Hero() {
             <div className="platter__hub" />
             <div className="platter__arm" />
             <div className="platter__tick">
-              {Array.from({ length: 24 }).map((_, i) => (
-                <span key={i} style={{ transform: `rotate(${i * 15}deg)` }} />
+              {Array.from({ length: 12 }).map((_, i) => (
+                <span key={i} style={{ transform: `rotate(${i * 30}deg)` }} />
               ))}
             </div>
           </div>

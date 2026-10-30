@@ -47,7 +47,7 @@ body {
 body::after {
   content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 9999;
   background-image: url('/hdd-research/img/grain.png');
-  background-size: 64px; opacity: 0.035; mix-blend-mode: screen;
+  background-size: 64px; opacity: 0.04;
 }
 img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; text-decoration: none; }
@@ -85,7 +85,7 @@ p { max-width: 34em; }
 /* шапка */
 .hdr {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(8, 8, 10, 0.86); backdrop-filter: blur(14px);
+  background: rgba(8, 8, 10, 0.94);
   border-bottom: 1px solid var(--line-2);
 }
 .hdr__in { display: flex; align-items: center; justify-content: space-between; gap: var(--s-24); height: 64px; }
